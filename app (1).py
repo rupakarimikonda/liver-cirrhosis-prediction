@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load the model
-with open("model(1).pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
   model = pickle.load(f)
 
 # Load the scaler
